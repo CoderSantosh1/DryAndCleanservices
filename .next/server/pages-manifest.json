@@ -2,7 +2,13 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
+  "/api/orders": "pages/api/orders.js",
+  "/delivery": "pages/delivery.js",
+  "/delivery/orders": "pages/delivery/orders.js",
+  "/admin": "pages/admin.js",
+  "/admin/login": "pages/admin/login.js",
   "/api/cleaners": "pages/api/cleaners.js",
-  "/cleaners/[id]": "pages/cleaners/[id].js"
+  "/admin/cleaners": "pages/admin/cleaners.js",
+  "/admin/orders": "pages/admin/orders.js",
+  "/api/delivery": "pages/api/delivery.js"
 }

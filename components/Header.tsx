@@ -52,12 +52,12 @@ export default function Header({
           >
             Delevery
           </Link>
-          <Link
+          {/* <Link
             href="/admin"
             className="text-indigo-600 border border-indigo-600 px-3 py-1.5 rounded-md hover:bg-indigo-600 hover:text-white transition"
           >
             Admin
-          </Link>
+          </Link> */}
         </nav>
 
         {/* Mobile Menu Toggle */}
@@ -108,13 +108,6 @@ export default function Header({
               onClick={() => setMobileOpen(false)}
             >
               Contact
-            </Link>
-            <Link
-              href="/admin"
-              className="block py-2 text-indigo-600 border-t pt-3 mt-3 font-medium"
-              onClick={() => setMobileOpen(false)}
-            >
-              Admin Panel
             </Link>
           </nav>
         </div>

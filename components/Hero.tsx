@@ -21,7 +21,7 @@ export default function Hero() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight drop-shadow">
               #1 Dry Cleaning & Laundry
               <br />
-              Service in India
+              Service in Noida
             </h1>
 
             <p className="mt-4 text-lg sm:text-xl text-white/90 font-medium">
@@ -35,17 +35,17 @@ export default function Hero() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href="/booking"
+                href="/cleaners/tumbledry-s76"
                 className="inline-block bg-white text-[#1e90ff] font-semibold px-5 py-3 rounded shadow hover:translate-y-[-1px] transition-transform"
               >
                 Book Pickup
               </a>
-              <a
+              {/* <a
                 href="/cleaners"
                 className="inline-block border border-white/30 text-white/95 px-4 py-3 rounded hover:bg-white/10 transition"
               >
                 View Cleaners
-              </a>
+              </a> */}
             </div>
           </div>
 
